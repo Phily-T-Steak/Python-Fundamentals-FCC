@@ -1,4 +1,5 @@
 # Building a "calculator" based on some various requirements with the use of if statments
+
 # Here are some of the base variables
 base_price = 15
 age = 21
