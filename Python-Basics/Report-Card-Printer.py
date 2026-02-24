@@ -17,3 +17,5 @@ print(age, type(age))
 score = 80.5
 # print the variable name and type but checking that the vraiable is a specific type
 print(isinstance(score, float))
+# print the scored data along side its data type
+print(score, type(score))
