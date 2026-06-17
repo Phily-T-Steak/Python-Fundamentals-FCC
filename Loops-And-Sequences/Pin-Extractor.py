@@ -9,7 +9,7 @@ def pin_extractor(poems):
         secret_code = ''
         #we are creating a variable lines and using the .split() function to break up poems into indivual lines using the \n function
         lines = poem.split('\n')
-        #in our second for loop we are iterating throughe ach line in the lines list from the newly made lines variable while also having the enumerate add a value with the help of the line_index variable
+        #in our second for loop we are iterating through each line in the lines list from the newly made lines variable while also having the enumerate add a value with the help of the line_index variable
         for line_index, line in enumerate(lines):
             #here is where we are breaking it down to its final size of words with the use of the .split() function which is seperating each of the stings into individual words in the form of a list
             #.split() by defult splits on whitespaces (spaces, tabs, newlines) since nothing was specified it went with spaces
